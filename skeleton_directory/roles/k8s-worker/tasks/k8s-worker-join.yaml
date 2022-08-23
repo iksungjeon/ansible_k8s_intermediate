@@ -13,4 +13,4 @@
     - kubelet
 
 - name: join into master {{ inventory_hostname }}
-  command: "{{ k8s_node_token }}"
+  command: "{{ k8s_node_token.stdout }}"
