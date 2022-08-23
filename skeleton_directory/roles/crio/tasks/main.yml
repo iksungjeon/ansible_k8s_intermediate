@@ -1,0 +1,4 @@
+---
+# tasks file for crio
+- import_tasks: crio-prepare.yaml
+- import_tasks: crio.yaml
